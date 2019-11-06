@@ -13,13 +13,13 @@ services:
     networks:
       default:
         aliases:
-          - api.wb.local
-          - auth.wb.local
-          - ws.ranger.wb.local
-          - pma.wb.local
-          - eth.wb.local
-          - monitor.wb.local
+          - api.wb.bitcoinmarket.pro
+          - auth.wb.bitcoinmarket.pro
+          - ws.ranger.wb.bitcoinmarket.pro
+          - pma.wb.bitcoinmarket.pro
+          - eth.wb.bitcoinmarket.pro
+          - monitor.wb.bitcoinmarket.pro
     labels:
       traefik.enable: true
-      traefik.frontend.rule: 'Host: monitor.wb.local'
+      traefik.frontend.rule: 'Host: monitor.wb.bitcoinmarket.pro'
       traefik.port: 8080
